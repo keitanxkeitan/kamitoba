@@ -4,6 +4,9 @@
 
 $grayMediumLight: #eaeaea;
 
+$tsutawaruPink: #ff005f;
+$tsutawaruGray: #373737;
+
 /* universal */
 
 html {
@@ -101,10 +104,45 @@ footer {
   }
 }
 
+/* about */
+
+div.about {
+  color: $tsutawaruGray;
+}
+
+/* news */
+
+div.news {
+  color: $tsutawaruGray;
+}
+
+/* kamitobaBook */
+
+div.kamitobaBook {
+  margin: 0 auto;
+  width: 600px;
+}
+
+div.kamitobaBookImage {
+  float: left;
+  width: 300px;
+}
+
+div.kamitobaBookDescription {
+  color: $tsutawaruGray;
+  line-height: 24px;
+}
+
 /* interview */
 
-$tsutawaruPink: #ff005f;
-$tsutawaruGray: #373737;
+div.interviewLogo {
+  margin: 0 0 30px 0;
+}
+
+div.interview {
+  margin: 0 auto;
+  width: 700px;
+}
 
 div.statement {
   margin: 0 94px 12px 38px;
